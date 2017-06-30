@@ -1,0 +1,8 @@
+# X509 extensions for an S/MIME certificate
+
+basicConstraints = CA:FALSE
+nsCertType = email
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid,issuer:always
+extendedKeyUsage = emailProtection
+keyUsage = digitalSignature, keyEncipherment
